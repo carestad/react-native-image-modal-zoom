@@ -107,7 +107,7 @@ export class Props {
   /**
    * 长按图片的回调
    */
-  public onLongPress?: (image?: IImageInfo) => void = () => {
+  public onLongPress?: (image?: IImageInfo, event?: any) => void = () => {
     //
   };
 
