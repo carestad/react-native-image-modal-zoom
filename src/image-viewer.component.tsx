@@ -392,14 +392,14 @@ export default class ImageViewer extends React.Component<Props, State> {
   /**
    * 长按
    */
-  public handleLongPress = (image: IImageInfo) => {
+  public handleLongPress = (image: IImageInfo, event: any) => {
     if (this.props.saveToLocalByLongPress) {
       // 出现保存到本地的操作框
       this.setState({ isShowMenu: true });
     }
 
     if (this.props.onLongPress) {
-      this.props.onLongPress(image);
+      this.props.onLongPress(image, event);
     }
   };
 
