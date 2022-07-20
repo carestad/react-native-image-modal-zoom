@@ -17,7 +17,7 @@
 ### Installation
 
 ```bash
-yarn add react-native-image-zoom-viewer-fixed
+yarn add https://github.com/carestad/react-native-image-modal-zoom
 ```
 
 ### Basic Usage
@@ -38,7 +38,7 @@ $ create-react-native-app AwesomeProject
 
 ```typescript
 import { Modal } from 'react-native';
-import ImageViewer from 'react-native-image-zoom-viewer';
+import ImageViewer from 'react-native-image-modal-zoom';
 
 const images = [{
     // Simplest usage.
