@@ -10,7 +10,10 @@
     "start": "tsc -w --outDir demo/built"
   },
   "keywords": [
-    "image-viewer"
+    "image-viewer",
+    "react native",
+    "modal",
+    "zoom"
   ],
   "author": "ascoders",
   "license": "MIT",
