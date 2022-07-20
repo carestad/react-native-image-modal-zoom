@@ -1,6 +1,6 @@
 {
   "name": "react-native-image-modal-zoom",
-  "version": "3.2.7",
+  "version": "3.3.0",
   "description": "react native image modal with zoom",
   "repository": "https://github.com/carestad/react-native-image-modal-zoom",
   "main": "built/index.js",
