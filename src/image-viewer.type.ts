@@ -67,6 +67,7 @@ export class Props {
   public enableImageZoom?: boolean = true;
 
   public style?: ViewStyle = {};
+  public moveBoxStyle?: ViewStyle = {};
 
   /**
    * Enable swipe down to close image viewer.

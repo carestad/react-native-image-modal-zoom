@@ -627,6 +627,7 @@ export default class ImageViewer extends React.Component<Props, State> {
           <Animated.View
             style={{
               ...this.styles.moveBox,
+              ...this.props.moveBoxStyle,
               transform: [{ translateX: this.positionX }],
               width: this.width * this.props.imageUrls.length
             }}
