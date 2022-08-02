@@ -108,6 +108,9 @@ export default class App extends React.Component {
 | useNativeDriver        | boolean                                                                                | no       | Whether to animate using [`useNativeDriver`](https://reactnative.dev/docs/animations#using-the-native-driver)                                                                                                                        | `false`                                                   |
 | menus                  | function<br><br>`({cancel,saveToLocal}) => React.ReactElement<any>`                    | no       | Custom menus, with 2 methods:`cancel` to hide menus and `saveToLocal` to save image to camera
 | menuContext            | object<br><br>`{someKey: someValue}`                                                   | no       | Custom menu context.                              | `{ saveToLocal: 'save to the album', cancel: 'cancel' }`
+
+Also all props from https://github.com/ktjd123/react-native-image-zoom is supported and are passed down.
+
 ## Development pattern
 
 ### Step 1, run TS listener
